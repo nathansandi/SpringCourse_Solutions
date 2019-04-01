@@ -1,0 +1,59 @@
+1553513352717	Delete element
+1553514010198	Encapsulate field 'fileName'
+1553514846679	Rename type 'FileName'
+1553515282449	Rename type 'Filename'
+1553516244094	Delete element
+1553516302390	Encapsulate field 'fileName'
+1553516509704	Delete element
+1553516535151	Encapsulate field 'fileName'
+1553516680631	Delete element
+1553516906011	Delete elements
+1553517208839	Move compilation unit
+1553520368869	Move 'messages.properties' to 'view'
+1553520380219	Move 'messages.properties' to 'WEB-INF'
+1553521170430	Copy file
+1553521175221	Delete element
+1553521329640	Move 'messages.properties' to 'WEB-INF'
+1553521561564	Copy file
+1553521655600	Delete element
+1553525410859	Move 'messages.properties' to 'WEB-INF'
+1553525703649	Delete element
+1553526900149	Encapsulate field 'id'
+1553526905310	Encapsulate field 'telephone'
+1553526908925	Encapsulate field 'isfixed'
+1553532746823	Rename type 'Telephone'
+1553533319781	Copy compilation unit
+1553533323238	Delete element
+1553533402833	Copy compilation unit
+1553533410819	Delete element
+1553533446519	Delete element
+1553533844858	Rename type 'SouthAfrican_Telephones'
+1553534350997	Copy compilation unit
+1553534378492	Delete element
+1553535011512	Copy compilation unit
+1553535022760	Rename type 'Telephone'
+1553604971470	Delete element
+1553610111259	Rename type 'Results'
+1553610347180	Infer generic type arguments
+1553616419615	Delete element
+1553631229690	Delete element
+1553631381822	Delete element
+1553631646253	Move compilation unit
+1553631676287	Delete element
+1553688377295	Move 'view.properties' to 'view'
+1553688380233	Move 'view.properties' to 'WEB-INF'
+1553688444894	Delete element
+1553688729749	Copy file
+1553688786115	Copy file
+1553688804274	Delete element
+1553688813209	Delete element
+1553688897663	Delete element
+1553688909507	Copy file
+1553688916643	Rename resource 'view.properties'
+1553688941185	Rename resource 'view.properties'
+1553688960382	Delete element
+1553688966115	Copy file
+1553689981731	Move compilation unit
+1553693775642	Encapsulate field 'telephone'
+1553711298845	Encapsulate field 'status'
+1553712748356	Rename resource 'testresult.jsp'

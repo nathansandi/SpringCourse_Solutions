@@ -1,0 +1,17 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Student Registration Form</title>
+		<style>
+			.error{color:red}
+		</style>
+	</head>
+
+	<body>
+		<form:form action="processForm" modelAttribute = "student">
+			<tr><td>File to upload:</td><td><input type="file" name="file" /></td></tr>
+			<tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+		</form:form>
+	</body>
+</html>

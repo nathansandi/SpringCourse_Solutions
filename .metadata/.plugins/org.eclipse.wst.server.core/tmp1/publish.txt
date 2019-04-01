@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Thu Mar 28 15:58:23 CET 2019
+org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\OLX\\OLX_JAVA_SouthAfricanNumbers\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\springmvcdemo\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\springmvcdemo\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\OLX\\OLX_JAVA_SouthAfricanNumbers\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE-sources.jar
