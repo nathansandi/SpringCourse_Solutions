@@ -38,8 +38,31 @@ public class CustomerDAOImpl implements CustomerDAO {
 		//get current hibernate session
 		Session currentSession =sessionFactory.getCurrentSession();
 		//save the customer
-		currentSession.save(theCustomer);
+		currentSession.saveOrUpdate(theCustomer);
 		
+	}
+
+	@Override
+	public Customer getCustomer(int theId) {
+		// TODO Auto-generated method stub
+		Session currentSession =sessionFactory.getCurrentSession();
+		//create a querry2...sort by last name
+		Customer customer = 
+				currentSession.get(Customer.class,theId);
+		//return list of customers
+		return customer;
+	}
+
+	@Override
+	public void deleteCustomer(int theId) {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+		Session currentSession =sessionFactory.getCurrentSession();
+		//create a querry2...sort by last name
+		Customer customer = 
+				currentSession.get(Customer.class,theId);
+		//return list of customers
+		currentSession.delete(customer);
 	}
 
 }

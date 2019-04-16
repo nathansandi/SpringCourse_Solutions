@@ -25,12 +25,25 @@
 						<th>First Name</th>
 						<th>Last Name</th>
 						<th>Email</th>
+						<th>Action</th>
+						
 					</tr>
 					<c:forEach var = "tempCustomer" items="${customers}"> 
+					<!-- constrct an uodate link with customer -->
+					<c:url var="updateLink" value="/customer/showFormForUpdate">
+						<c:param name="customerId" value="${tempCustomer.id}" />
+					</c:url>
+					<c:url var="deleteLink" value="/customer/delete">
+						<c:param name="customerId" value="${tempCustomer.id}" />
+					</c:url>
 						<tr>
 							<td>${tempCustomer.first_name}</td>
 							<td>${tempCustomer.last_name}</td>
 							<td>${tempCustomer.email}</td>
+							<td>
+								<a href="${updateLink}">Update</a> |
+								<a href="${deleteLink}" onclick="if(!(confirm('Are you sure tou want to delete this customer?'))) return false">Delete</a>
+							</td>
 						</tr>
 					</c:forEach>
 				</table>

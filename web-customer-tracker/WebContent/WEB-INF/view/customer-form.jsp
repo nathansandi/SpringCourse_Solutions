@@ -3,6 +3,8 @@
 <html>
 <head>
 	<title>Save Customers</title>
+	
+
 	<link type="text/css"
 		rel="stylesheet"
 		href="${pageContext.request.contextPath}/resources/css/style.css"/>
@@ -19,6 +21,8 @@
 		<div id ="container">
 			<h3>Save Customer</h3>
 			<form:form action="saveCustomer" modelAttribute="customer" method="POST">
+				<!-- need associate this data with customer id -->
+				<form:hidden path="id"/>	
 				<table>
 					<tr>
 						<td><label>First name:</label></td>
