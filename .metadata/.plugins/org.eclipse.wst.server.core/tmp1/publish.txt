@@ -1,6 +1,4 @@
 #Tomcat publish data
-#Tue Apr 16 11:48:28 CEST 2019
-org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\springmvcdemo\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE-sources.jar
-org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE-sources.jar
-org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE.jar
-org.eclipse.jst.jee.server\:/binary\:D\:\\projects\\springmvcdemo\\WebContent\\WEB-INF\\lib\\spring-web-5.1.4.RELEASE.jar=WEB-INF/lib/spring-web-5.1.4.RELEASE.jar
+#Thu Apr 09 16:15:27 BST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\nsand\\.m2\\repository\\org\\springframework\\spring-web\\5.0.6.RELEASE\\spring-web-5.0.6.RELEASE.jar=WEB-INF/lib/spring-web-5.0.6.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\nsand\\.m2\\repository\\org\\springframework\\spring-web\\5.0.5.RELEASE\\spring-web-5.0.5.RELEASE.jar=WEB-INF/lib/spring-web-5.0.5.RELEASE.jar
