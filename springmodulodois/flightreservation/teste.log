@@ -1,0 +1,68 @@
+2020-07-27 11:49:38.396  INFO 8228 --- [main] c.n.f.FlightreservationApplication       : Starting FlightreservationApplication on LAPTOP-1QT4R0KB with PID 8228 (D:\projects\springmodulodois\flightreservation\target\classes started by nsand in D:\projects\springmodulodois\flightreservation)
+2020-07-27 11:49:38.399  INFO 8228 --- [main] c.n.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2020-07-27 11:49:38.917  INFO 8228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-27 11:49:39.020  INFO 8228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 4 JPA repository interfaces.
+2020-07-27 11:49:39.404  INFO 8228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-27 11:49:39.411  INFO 8228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-27 11:49:39.411  INFO 8228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-27 11:49:39.630  INFO 8228 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-27 11:49:39.634  INFO 8228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-27 11:49:39.635  INFO 8228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1198 ms
+2020-07-27 11:49:39.778  INFO 8228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 11:49:39.784  INFO 8228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-27 11:49:39.884  INFO 8228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-27 11:49:39.926  INFO 8228 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-27 11:49:39.965  INFO 8228 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-27 11:49:39.972  WARN 8228 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-27 11:49:40.146  INFO 8228 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-27 11:49:40.237  INFO 8228 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-27 11:49:40.331  INFO 8228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-27 11:49:40.333  INFO 8228 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-27 11:49:40.709  INFO 8228 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-27 11:49:40.715  INFO 8228 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-27 11:49:41.011  INFO 8228 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-27 11:49:41.018  INFO 8228 --- [main] c.n.f.FlightreservationApplication       : Started FlightreservationApplication in 2.92 seconds (JVM running for 3.676)
+2020-07-27 11:49:53.246  INFO 8228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 11:49:53.247  INFO 8228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-27 11:49:53.253  INFO 8228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-27 11:49:53.286  INFO 8228 --- [http-nio-8080-exec-1] c.n.f.controllers.ReservationController  : esta no metodo showCompleteReservation com o id do voo 3
+2020-07-27 11:49:53.340  INFO 8228 --- [http-nio-8080-exec-1] c.n.f.controllers.ReservationController  : Flight isFlight [ flightNumber=AA3, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 06:14:07.0]
+2020-07-27 11:50:21.476  INFO 8228 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-27 11:50:21.725  INFO 8228 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-27 11:50:21.727  INFO 8228 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 11:50:21.728  INFO 8228 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-27 11:50:21.733  INFO 8228 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-27 11:51:20.674  INFO 20152 --- [main] c.n.f.FlightreservationApplication       : Starting FlightreservationApplication on LAPTOP-1QT4R0KB with PID 20152 (D:\projects\springmodulodois\flightreservation\target\classes started by nsand in D:\projects\springmodulodois\flightreservation)
+2020-07-27 11:51:20.676  INFO 20152 --- [main] c.n.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2020-07-27 11:51:21.182  INFO 20152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-27 11:51:21.293  INFO 20152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105ms. Found 4 JPA repository interfaces.
+2020-07-27 11:51:21.669  INFO 20152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-27 11:51:21.676  INFO 20152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-27 11:51:21.677  INFO 20152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-27 11:51:21.889  INFO 20152 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-27 11:51:21.892  INFO 20152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-27 11:51:21.893  INFO 20152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1186 ms
+2020-07-27 11:51:22.040  INFO 20152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 11:51:22.046  INFO 20152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-27 11:51:22.142  INFO 20152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-27 11:51:22.185  INFO 20152 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-27 11:51:22.227  INFO 20152 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-27 11:51:22.232  WARN 20152 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-27 11:51:22.435  INFO 20152 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-27 11:51:22.530  INFO 20152 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-27 11:51:22.612  INFO 20152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-27 11:51:22.614  INFO 20152 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-27 11:51:22.996  INFO 20152 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-27 11:51:23.005  INFO 20152 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-27 11:51:23.297  INFO 20152 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-27 11:51:23.304  INFO 20152 --- [main] c.n.f.FlightreservationApplication       : Started FlightreservationApplication in 2.926 seconds (JVM running for 3.656)
+2020-07-27 11:52:52.253  INFO 20152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-27 11:52:52.253  INFO 20152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-27 11:52:52.260  INFO 20152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-27 11:52:52.296  INFO 20152 --- [http-nio-8080-exec-1] c.n.f.controllers.ReservationController  : esta no metodo showCompleteReservation com o id do voo 1
+2020-07-27 11:52:52.349  INFO 20152 --- [http-nio-8080-exec-1] c.n.f.controllers.ReservationController  : Flight isFlight [ flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05 00:00:00.0, estimatedDepartureTime=2018-02-05 03:14:07.0]
+2020-07-27 11:54:11.929  INFO 20152 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-27 11:54:12.168  INFO 20152 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-27 11:54:12.170  INFO 20152 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-27 11:54:12.171  INFO 20152 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-27 11:54:12.176  INFO 20152 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

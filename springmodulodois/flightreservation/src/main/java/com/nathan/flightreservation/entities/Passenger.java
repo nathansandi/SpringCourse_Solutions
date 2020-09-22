@@ -18,7 +18,7 @@ public class Passenger extends AbstractEntity{
 	private String email;
 	@Column
 	private String phone;
-	String getFirstName() {
+	public String getFirstName() {
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
