@@ -5,9 +5,11 @@
 	<item value="194" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
 	<item value="C:\Users\nsand\OneDrive\Área de Trabalho\jdk-11.0.2\lib" key="LAST_PATH_SETTING"/>
 	<item value="121" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<section name="conditionHistory">
+	</section>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=spring-demo-aop/src&amp;lt;com.luv2code.aopdemo{MainDemoApp.java[MainDemoApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=spring-demo-aop/src&amp;lt;com.luv2code.aopdemo{MainDemoApp.java[MainDemoApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=gameofthree/src\/main\/java&amp;lt;com.gameofthree{GameClient.java[GameClient&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=numbers-game-master/src\/main\/java&amp;lt;com.challenge{ServerApp.java[ServerApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=gameofthree/src\/main\/java&amp;lt;com.gameofthree{GameServer.java[GameServer&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=CamundaProject/C:\/Users\/nsand\/.m2\/repository\/junit\/junit\/3.8.1\/junit-3.8.1.jar&amp;lt;junit.awtui(TestRunner.class[TestRunner&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=CamundaProject/src\/main\/java&amp;lt;com.camunda{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="391" key="DIALOG_WIDTH"/>
 			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
@@ -19,7 +21,7 @@
 	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
 		<item value="500" key="SashWeightTree"/>
 		<item value="500" key="SashWeightDetails"/>
-		<item value="816" key="WIDTH"/>
-		<item value="256" key="HEIGHT"/>
+		<item value="614" key="WIDTH"/>
+		<item value="194" key="HEIGHT"/>
 	</section>
 </section>

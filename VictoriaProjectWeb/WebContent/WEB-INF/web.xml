@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        version="3.0"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+		
+  <display-name>Site Services</display-name>
+  <servlet>
+    <description></description>
+    <display-name>LoginService</display-name>
+    <servlet-name>LoginService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.LoginService</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>SignupAllowedService</display-name>
+    <servlet-name>SignupAllowedService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.SignupAllowedService</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>SendAuthenticationKeyService</display-name>
+    <servlet-name>SendAuthenticationKeyService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.SendAuthenticationKeyService</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>ValidateAuthenticationKey</display-name>
+    <servlet-name>ValidateAuthenticationKey</servlet-name>
+    <servlet-class>pt.victoria.hub.application.ValidateAuthenticationKey</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>GetPreferencialContactsService</display-name>
+    <servlet-name>GetPreferencialContactsService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.GetPreferencialContactsService</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>GetPreferencialContactsAnService</display-name>
+    <servlet-name>GetPreferencialContactsAnService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.GetPreferencialContactsAnService</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>RecoverPasswordService</display-name>
+    <servlet-name>RecoverPasswordService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.RecoverPasswordService</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>SetPasswordService</display-name>
+    <servlet-name>SetPasswordService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.SetPasswordService</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>ValidateUserTokenService</display-name>
+    <servlet-name>ValidateUserTokenService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.ValidateUserTokenService</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>GetClientDetailService</display-name>
+    <servlet-name>GetClientDetailService</servlet-name>
+    <servlet-class>pt.victoria.hub.application.GetClientDetailService</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginService</servlet-name>
+    <url-pattern>/anonymous/login</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>SignupAllowedService</servlet-name>
+    <url-pattern>/anonymous/signup/signupAllowed</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendAuthenticationKeyService</servlet-name>
+    <url-pattern>/anonymous/signup/requestAuthenticationKey</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ValidateAuthenticationKey</servlet-name>
+    <url-pattern>/anonymous/signup/validateAuthenticationKey</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>GetPreferencialContactsService</servlet-name>
+    <url-pattern>/authenticated/preferencialContacts</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>GetPreferencialContactsAnService</servlet-name>
+    <url-pattern>/anonymous/signup/preferencialContacts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecoverPasswordService</servlet-name>
+    <url-pattern>/anonymous/recoverPassword/requestToken</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>SetPasswordService</servlet-name>
+    <url-pattern>/anonymous/recoverPassword/setPassword</url-pattern>
+  </servlet-mapping>    
+  <servlet-mapping>
+    <servlet-name>ValidateUserTokenService</servlet-name>
+    <url-pattern>/anonymous/recoverPassword/validateToken</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetClientDetailService</servlet-name>
+    <url-pattern>/authenticated/clientDetail</url-pattern>
+  </servlet-mapping>
+
+
+   <filter>
+	    <filter-name>CorsFilter</filter-name>
+	    <filter-class>pt.victoria.hub.application.CORSFilter</filter-class>
+	</filter>
+	 
+	<filter-mapping>
+	    <filter-name>CorsFilter</filter-name>
+	    <url-pattern>/*</url-pattern>
+	</filter-mapping>
+</web-app>

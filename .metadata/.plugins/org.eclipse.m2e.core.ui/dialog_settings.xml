@@ -71,13 +71,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.camunda.com.camunda"/>
 			<item value="com.luv2code.mycoolwebapp"/>
 			<item value="com.luv2code.mycoolapp"/>
 		</list>
 		<list key="groupId">
+			<item value="com.camunda"/>
 			<item value="com.luv2code"/>
 		</list>
 		<list key="artifactId">
+			<item value="com.camunda"/>
 			<item value="mycoolwebapp"/>
 			<item value="mycoolapp"/>
 		</list>
@@ -90,6 +93,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 			<item value="1.0"/>
 		</list>
 	</section>
